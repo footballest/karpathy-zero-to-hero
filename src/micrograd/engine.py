@@ -1,7 +1,3 @@
-"""Skeleton for a micrograd-style autodiff engine.
-
-Fill this out as you follow the lectures.
-"""
 
 class Value:
     def __init__(self, data, _children = (), _op='', label=''):
